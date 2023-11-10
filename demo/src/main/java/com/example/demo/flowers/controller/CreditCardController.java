@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/payment")
 public class CreditCardController {
     @GetMapping("/CreditCard")
-    public String pay(int price) {
-        return String.valueOf(price);
+    public String pay() {
+        return "This payment is made by credit card";
     }
 }

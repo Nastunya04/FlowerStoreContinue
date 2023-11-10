@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/payment")
 public class PayPallController {
     @GetMapping("/PayPall")
-    public String pay(int price) {
-        return String.valueOf(price);
+    public String pay() {
+        return "Hi, I love APPS!";
     }
 }

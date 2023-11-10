@@ -1,8 +1,8 @@
 package com.example.demo.flowers.payment;
 
 public class PayPalPaymentStrategy implements Payment {
-//    @Override
-    public String pay(int price) {
-        return String.valueOf(price);
+    @Override
+    public Integer pay(int price) {
+        return 1;
     }
 }
